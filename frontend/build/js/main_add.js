@@ -1,6 +1,7 @@
 $(document).on("click", ".save_order_button", function (e) {
 	e.preventDefault();
 	// console.log($('#input-phone__code').html());
+	// console.log($('#input-phone__code').html());
 	//$('#POPUP_FOUNDED_CHEAPER_PHONE').val($('#input-phone__code').html());
 	//console.log($('#POPUP_FOUNDED_CHEAPER_PHONE').val());
     $.post( '/local/include/ajax/save_order.php', $('#save_order_form').serialize(), function(data) {
